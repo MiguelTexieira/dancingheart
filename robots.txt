@@ -1,0 +1,11 @@
+# robots.txt for Dancing Heart Yoga
+# https://www.dancingheart.yoga/
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.dancingheart.yoga/sitemap.xml
+
+# Crawl-delay (optional, be polite to crawlers)
+Crawl-delay: 1

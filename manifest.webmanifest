@@ -1,4 +1,12 @@
 {
+  "name": "Dancing Heart Yoga",
+  "short_name": "DH Yoga",
+  "description": "Vinyasa Flow yoga classes in St Albans with certified instructor Vendula. Private sessions, group classes, corporate yoga & more.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fdf2e9",
+  "theme_color": "#cf711f",
+  "orientation": "portrait-primary",
   "icons": [
     { "src": "img/favicon-192.png", "type": "image/png", "sizes": "192x192" },
     { "src": "img/favicon-512.png", "type": "image/png", "sizes": "512x512" }
