@@ -119,6 +119,19 @@
   margin-bottom: 4.8rem;
 }
 
+.text-link:link,
+.text-link:visited {
+  color: #cf711f;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: all 0.3s;
+}
+
+.text-link:hover,
+.text-link:active {
+  color: #e67e22;
+}
+
 .hero-img {
   width: 100%;
 }
