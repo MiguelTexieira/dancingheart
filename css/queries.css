@@ -256,6 +256,11 @@
     order: 2;
   }
 
+  /* Left align hero text on mobile */
+  .hero-text-box {
+    text-align: left;
+  }
+
   .btn,
   .btn:link,
   .btn:visited {
