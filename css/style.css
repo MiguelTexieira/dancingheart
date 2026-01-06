@@ -482,6 +482,23 @@
   flex-grow: 1;
 }
 
+/* Pricing card ordering - desktop: Taster, OneOff, Special | mobile: Special first */
+.grid--pricing {
+  display: grid;
+}
+
+.pricing-plan--taster {
+  order: 1;
+}
+
+.pricing-plan--oneoff {
+  order: 2;
+}
+
+.pricing-plan--special {
+  order: 3;
+}
+
 .pricing-plan--featured::after {
   content: 'Best value';
   position: absolute;

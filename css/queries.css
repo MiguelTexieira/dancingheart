@@ -243,6 +243,19 @@
     grid-template-columns: 1fr;
   }
 
+  /* Mobile: 2026 Special first */
+  .pricing-plan--special {
+    order: -1;
+  }
+
+  .pricing-plan--taster {
+    order: 1;
+  }
+
+  .pricing-plan--oneoff {
+    order: 2;
+  }
+
   .btn,
   .btn:link,
   .btn:visited {
