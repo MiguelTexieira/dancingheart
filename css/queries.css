@@ -320,6 +320,18 @@
   .yogagradient {
     width: 90%;
   }
+
+  .whatsapp-float {
+    bottom: 1.6rem;
+    right: 1.6rem;
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .whatsapp-float svg {
+    width: 25px;
+    height: 25px;
+  }
 }
 
 /* 
