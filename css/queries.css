@@ -322,7 +322,7 @@
   }
 
   .whatsapp-float {
-    bottom: 1.6rem;
+    bottom: calc(1.6rem + env(safe-area-inset-bottom, 0px));
     right: 1.6rem;
     width: 5rem;
     height: 5rem;

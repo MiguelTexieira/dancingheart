@@ -817,7 +817,7 @@
 
 .whatsapp-float {
   position: fixed;
-  bottom: 3.2rem;
+  bottom: calc(3.2rem + env(safe-area-inset-bottom, 0px));
   right: 3.2rem;
   width: 5.6rem;
   height: 5.6rem;
@@ -828,7 +828,9 @@
   justify-content: center;
   box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.2);
   z-index: 998;
-  transition: all 0.3s;
+  transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 .whatsapp-float:hover {
