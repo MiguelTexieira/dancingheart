@@ -826,7 +826,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.2rem 0.8rem rgba(0, 0, 0, 0.1);
   z-index: 998;
   transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
   -webkit-transform: translateZ(0);
@@ -836,7 +836,7 @@
 .whatsapp-float:hover {
   background-color: #1ebe57;
   transform: scale(1.1);
-  box-shadow: 0 0.6rem 1.6rem rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.15);
 }
 
 .whatsapp-float:focus {
