@@ -287,6 +287,18 @@
   white-space: nowrap;
 }
 
+/**************************/
+/* SUPPLY SECTION */
+/**************************/
+
+.section-supply {
+  padding: 0 0 9.6rem;
+}
+
+.supply-list {
+  margin-bottom: 4.8rem;
+}
+
 .margin-top-md {
   margin-top: 4.8rem;
 }
