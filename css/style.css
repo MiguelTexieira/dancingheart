@@ -280,6 +280,8 @@
 
 .section-workplace {
   padding: 0 0 9.6rem;
+  /* No top padding, so leave room for the sticky header when scrolled to */
+  scroll-margin-top: 11.2rem;
 }
 
 .plan-price--duration {
@@ -293,6 +295,8 @@
 
 .section-supply {
   padding: 0 0 9.6rem;
+  /* No top padding, so leave room for the sticky header when scrolled to */
+  scroll-margin-top: 11.2rem;
 }
 
 .supply-list {
