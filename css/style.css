@@ -239,6 +239,54 @@
   margin-top: 6.4rem;
 }
 
+/**************************/
+/* PATHS SECTION */
+/**************************/
+
+.section-paths {
+  padding: 4.8rem 0 0;
+}
+
+.path-card:link,
+.path-card:visited {
+  display: block;
+  text-decoration: none;
+  border-radius: 11px;
+  border: 2px solid #fdf2e9;
+  padding: 3.2rem;
+  transition: all 0.4s;
+  text-align: center;
+  background-color: #fff;
+}
+
+.path-card:hover,
+.path-card:active {
+  transform: translateY(-0.8rem);
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.08);
+  border-color: #e67e22;
+}
+
+.path-link {
+  display: inline-block;
+  margin-top: 2.4rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #cf711f;
+}
+
+/**************************/
+/* WORKPLACE SECTION */
+/**************************/
+
+.section-workplace {
+  padding: 0 0 9.6rem;
+}
+
+.plan-price--duration {
+  font-size: 4.4rem;
+  white-space: nowrap;
+}
+
 .margin-top-md {
   margin-top: 4.8rem;
 }

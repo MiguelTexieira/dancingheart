@@ -48,6 +48,17 @@ allLinks.forEach(function (link) {
 });
 
 ///////////////////////////////////////////////////////////
+// Pre-fill contact message from workplace "Request a quote" buttons
+
+const messageEl = document.querySelector("#message");
+
+document.querySelectorAll("[data-message]").forEach(function (btn) {
+  btn.addEventListener("click", function () {
+    if (messageEl.value.trim() === "") messageEl.value = btn.dataset.message;
+  });
+});
+
+///////////////////////////////////////////////////////////
 // Sticky navigation
 
 const sectionHeroEl = document.querySelector(".section-hero");
